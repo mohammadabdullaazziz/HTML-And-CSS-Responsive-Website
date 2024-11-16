@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightseagreen;
+}
+
+.container-box{
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.container-box h2{
+    font-size: 2.5rem;
+}
+
+.container-box p{
+    margin-top: 20px;
+}
+
+.gallery{
+    flex-basis: 50%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 120px;
+    color: white;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #444;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+}
+
+.row-2{
+    grid-column: span 2;
+}
+
+.col-2{
+    grid-row: span 2;
+}
+
+.box:hover{
+    background-position: center;
+    background-color: #999;
+    cursor: pointer;
+}
+
+/* responsive code start */
+@media (max-width:850px) {
+    .container{
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .container-box{
+        margin-top: 30px;
+        padding: 0 30px;
+    }
+    .container-box h2{
+        font-size: 2rem;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .box{
+        background-size: cover;
+        height: 200px;
+    }
+}
