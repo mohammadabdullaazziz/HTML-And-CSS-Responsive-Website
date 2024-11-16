@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(lightseagreen, lightblue);
+}
+
+::selection{
+    background-color: lightseagreen;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 black;
+    padding: 20px 30px;
+    min-height: 250px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    background: #fff;
+    z-index: 2;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h2::after{
+    content: '';
+    height: 4px;
+    width: 40%;
+    border-radius: 25px;
+    margin: auto;
+    display: block;
+    background-color: lightseagreen;
+    margin-top: 5px;
+}
+
+input{
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    display: block;
+    width: 60%;
+    padding: 7px 15px;
+    background-color: lightseagreen;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: linear-gradient(to right, lightblue,cyan);
+}
+
+.circle-1{
+    position: absolute;
+    top: 35%;
+    left: 30px;
+}
+
+.circle-2{
+    position: absolute;
+    bottom: 20%;
+    right: 30px;
+}
+
+.circle-3{
+    position: absolute;
+    top: 25%;
+    right: 30px;
+}
