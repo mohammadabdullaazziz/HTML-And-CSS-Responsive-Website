@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+} 
+
+body{
+    background-color: #080808;
+    color: #fff;
+}
+li{
+    list-style-type: none;
+}
+a{
+    /* text-decoration: none; */
+    color: #fff;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+/* header section code start */
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/netflix-brand-hero-image.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+nav{
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 150px;
+}
+nav button{
+    background: #e50914;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+}
+.header-content{
+    text-align: center;
+    margin-top: 15%;
+}
+.h1{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: normal;
+}
+.h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.header-content input,.mail input{
+    width: 40%;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 17px;
+    border-radius: 3px;
+    margin-right: 10px;
+    color: #fff;
+    background: #000000;
+    border: 1px solid #ffffff80;
+    outline: none;
+
+}
+::placeholder{
+    color: white;
+}
+.header-content button,.mail button{
+    padding: 10px 25px;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #e50914;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.search-bar{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* header section code end */
+hr{
+    width: 100vw;
+    padding-block: 50px;  
+    margin-top: 0;  
+    border-top: 10px solid #727272;
+}
+
+/* container section code start */
+.section-1,.section-2,.section-3,.section-4{
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.section-img{
+    width: 100%;
+}
+/* container section code end */
+
+/* faq section code start  */
+.accordian-container{
+    margin-top: 50px;
+}
+/* faq section code end */
+
+/* section code start  */
+.mail h3{
+    padding: 30px;
+    padding-bottom: 0;
+}
+.mail{
+    padding-bottom: 50px;
+}
+/* section code end */
+
+/* footer section code start */
+.footer-links{
+    color: white;
+    opacity: 70%;
+}
+.footer-links ul{
+    padding-top: 20px;
+    margin-left: -30px;
+}
+.footer-links ul li{
+    padding-top: 20px;
+}
+.footer-links select{
+    background-color: transparent;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.footer-links p{
+    opacity: 70%;
+}
+/* footer section code end */
+
+
+/* media query*/
+@media (max-width:768px) {
+    .container{
+        width: 95%;
+    }
+    .header-content{
+        margin-top: 20%;
+    }
+    .h1{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 20px;
+    }
+    .h3{
+        font-size: 18px;
+    }
+    
+}
+@media (max-width:600px) {
+    .header-content{
+        margin-top: 30%;
+    }
+    .h1{
+        font-size: 24px;
+    }
+    .h2{
+        font-size: 18px;
+        padding-block: 20px;
+    }
+    .h3{
+        font-size: 18px;
+        width: 70%;
+        margin: auto;
+    }
+    .search-bar{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .search-bar input{
+        margin-bottom: 30px;
+        width: 80%;
+    }
+}
+
