@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="discription" content="This is a E-comarce-Project">
+  <title>E-comarce Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <!-- navbar section start hare -->
+  <i class="3x fa-solid fa-bars " id="menu-icon"></i>
+<!-- navbar section start hare -->
+<nav id="menu" class="hidden">
+
+  <ul class="upper-nav flex-space-around">
+
+  <li class="nav-list"><a href="index.html" class="nav-link">Home</a></li>
+
+  <li class="nav-list"><a href="register.html" class="nav-link">Register</a></li>
+ 
+  <li class="nav-list"><a href="login.html" class="nav-link">Login</a></li>
+ 
+  <li class="nav-list"><a href="index.html" class="nav-link">Logout</a></li>
+
+  <li class="nav-list"><a href="contact.html" class="nav-link">Contact</a></li>
+
+  <li class="nav-list"><a href="profile.html" class="nav-link"><img class="profile-icon" src="images/Abdulla.png" alt="woner photo"></a></li>
+    
+  </ul>
+
+  <ul class="lower-nav flex-space-around">
+  <li class="nav-list"><a href="index.html" class="nav-link nav-brand">E-comarce Brand</a></li>
+
+  <li class="nav-list"><a href="card.html" class="nav-link"><span><i class="fa-solid fa-cart-shopping"></i></span> Card 2 product- $140.40 </a></li>
+    
+  </ul>
+</nav>
+<!-- navbar section ends hare  -->
+
+<!-- header start hare -->
+<header class="header">
+
+  <div class="banner flex-space-around">
+    <marquee class="banner-title" behavior="" direction="">70% Sales Going On</marquee>
+
+  <div class="features flex-space-around">
+
+  <article class="feature flex-centre">
+    <i class="fa-solid fa-truck feature-icon"></i>
+    <h3>Shiping Within 7 days </h3>
+  </article>
+
+  <article class="feature flex-centre">
+    <i class="fa-brands fa-rocketchat feature-icon"></i>
+    <h3>Support 24/7 </h3>
+  </article>
+
+  <article class="feature flex-centre">
+    <i class="fa-solid fa-credit-card feature-icon"></i>
+    <h3>Safe Prement</h3>
+  </article>
+
+  </div>
+
+  </div>
+</header>
+<!-- header ends hare -->
+
+<!-- main start hare -->
+<main class="flex-centre">
+  <div class="sidebar">
+    <section class="catagories-section">
+     <h3 class="section-title">Catagories</h3>
+
+     <ul class="list">
+       <li class="list-item">
+          <label for="phone">
+          <input type="checkbox" name="phone" id="phone" value="phone">
+          Telephones </label>
+        </li>
+
+        <li class="list-item">
+          <label for="TV">
+          <input type="checkbox" name="TV" id="TV" value="TV">
+          Television </label>
+        </li>
+
+        <li class="list-item">
+          <label for="PC">
+          <input type="checkbox" name="PC" id="PC" value="PC">
+          Computer </label>
+        </li>
+
+        <li class="list-item">
+          <label for="Laptop">
+          <input type="checkbox" name="Laptop" id="Laptop" value="Laptop">
+          Laptop </label>
+        </li>
+
+        <li class="list-item">
+          <label for="Microphone">
+          <input type="checkbox" name="Microphone" id="Microphone" value="Microphone">
+          Microphone </label>
+        </li>
+
+      </ul>
+
+    </section>
+
+    <section class="Prize-section">
+     <h3 class="section-title">Price Range</h3>
+
+      <ul class="list">
+      <li class="list-item">
+      <label for="Prize">
+      <input type="radio" name="Prize" id="Prize" value=" 0$-20$">
+      0$-20$</label>
+      </li>
+
+      <li class="list-item">
+      <label for="Prize">
+      <input type="radio" name="Prize" id="Prize" value=" 21$-50$">
+      21$-50$</label>
+      </li>
+
+      <li class="list-item">
+      <label for="Prize">
+      <input type="radio" name="Prize" id="Prize" value=" 51$-100$">
+      51$-100$</label>
+      </li>
+
+      <li class="list-item">
+      <label for="Prize">
+      <input type="radio" name="Prize" id="Prize" value=" 101$-200$">
+      101$-200$</label>
+      </li>
+
+      <li class="list-item">
+      <label for="Prize">
+      <input type="radio" name="Prize" id="Prize" value=" 200$-500$">
+      200$-500$</label>
+      </li>
+        
+      </ul>
+        
+    </section>
+
+    <section class="shoping-option">
+      <h3 class="section-title">Shoping Option</h3>
+
+      <ul class="list">
+
+      <li class="list-item">
+      <label for="Free">
+      <input type="radio" name="Free" id="Free" value=" Free shoping">
+      Free Shoping</label>
+      </li>
+
+      <li class="list-item">
+      <label for="Paid">
+      <input type="radio" name="Paid" id="Paid" value=" Paid shoping">
+      Paid Shoping</label>
+      </li>
+
+      </ul>
+
+    </section>
+  </div>
+
+  <div class="main-content">
+
+  <section class="actions flex-space-around">
+
+    <div class="action-sort">
+      <lebel for="sort">Sort For:</lebel>
+      <select for="sort">
+      <option value="High Prize">High Prize</option>
+      <option value="Low Prize">Low Prize</option>
+      <option value="Offer Prize">Offer Prize</option>
+      <option value="Best Sell">Best Sell</option>
+      <option value="Treading Now">Treading Now</option>
+      </select>
+
+    </div>
+
+    <div class="action-search">
+
+    <input type="search" placeholder="Search product">
+    <button class="btn">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+    </div>
+
+  </section>
+
+  <!-- products section start hare -->
+  <section class="products">
+
+  <article class="product card">
+    <div class="badge">
+    <span>5 In Stock</span>
+    <hr class="hr-design">
+    <span>3 sold</span>
+    </div>
+
+    <img class="product-image" src="images/product1.jpg" alt="Headphone">
+    
+    <div class="product-body">
+    <h3 class="product-name">Sony WH-1000XM HeadPhone</h3>
+    <p>
+    <span class="dot green"></span>
+    <span class="dot black"></span>
+    <span class="dot red"></span>
+    </p>
+    
+    <p class="product-description">
+    The Sony WH-1000XM3 headphones offer exceptional noise cancellation, superior sound quality, and long-lasting battery life. Lightweight and comfortable, they feature touch controls, quick charging, and seamless Bluetooth connectivity for immersive audio...<a href="/product.html" class="learn-more">Learn More</a>
+    </p>
+    <h4 class="product-prize">Prize:$255.99</h4>
+    <p class="product-rating">Rating: 4.5/5</p>
+    <button class="btn product-button">Add To Cart</button>
+
+    </div>
+
+  </article>
+
+  <article class="product card">
+    <div class="badge">
+      <span>9 In Stock</span>
+      <hr class="hr-design">
+      <span>5 sold</span>
+    </div>
+
+    <img class="product-image" src="images/product2.png" alt="Watch">
+    <div class="product-body">
+      <h3 class="product-name">Apple Smartwatch</h3>
+      <p>
+        <span class="dot green"></span>
+        <span class="dot black"></span>
+        <span class="dot red"></span>
+      </p>
+      <p class="product-description">
+        
+      The Apple Watch combines sleek design with powerful features, including fitness tracking, heart rate monitoring, ECG, and GPS. It offers seamless integration with iPhone, customizable faces, and convenient notifications on the go...<a href="/product.html" class="learn-more">Learn More</a>
+      </p>
+      <h4 class="product-prize">Prize:$300.99</h4>
+      <p class="product-rating">Rating: 4/5</p>
+      <button class="btn product-button">Add To Cart</button>
+
+    </div>
+  </article>
+
+  <article class="product card">
+    <div class="badge">
+      <span>15 In Stock</span>
+      <hr class="hr-design">
+      <span>5 sold</span>
+    </div>
+    <img class="product-image" src="images/product3.jpg" alt="Sunglass">
+    <div class="product-body">
+      <h3 class="product-name">Apple Sunglass</h3>
+      <p>
+        <span class="dot green"></span>
+        <span class="dot black"></span>
+        <span class="dot red"></span>
+      </p>
+      <p class="product-description">
+        The Apple smart sunglasses combine stylish design with advanced tech, featuring built-in audio, hands-free Siri, and UV protection. With Bluetooth connectivity, they offer seamless integration with iPhone for calls and music...<a href="/product.html" class="learn-more">Learn More</a>
+      </p>
+      <h4 class="product-prize">Prize:$350.0</h4>
+      <p class="product-rating">Rating: 4.2/5</p>
+      <button class="btn product-button">Add To Cart</button>
+    </div>
+  </article>
+
+  <article class="product card">
+    <div class="badge">
+      <span>15 In Stock</span>
+      <hr class="hr-design">
+      <span>5 sold</span>
+    </div>
+
+    <img class="product-image" src="images/product4.jpg" alt="Shoe">
+    <div class="product-body">
+      <h3 class="product-name">Nike Shoes</h3>
+      <p>
+        <span class="dot green"></span>
+        <span class="dot black"></span>
+        <span class="dot red"></span>
+      </p>
+      <p class="product-description">
+        The Nike sneakers offer a blend of style and performance, featuring breathable materials, cushioned soles, and durable traction. Ideal for sports or casual wear, they provide comfort, support, and iconic design...<a href="/product.html" class="learn-more">Learn More</a>
+      </p>
+      <h4 class="product-prize">Prize:$450.58</h4>
+      <p class="product-rating">Rating: 4.9/5</p>
+      <button class="btn product-button">Add To Cart</button>
+    </div>
+  </article>
+
+  <article class="product card">
+    <div class="badge">
+      <span>20 In Stock</span>
+      <hr class="hr-design">
+      <span>2 sold</span>
+    </div>
+
+    <img class="product-image" src="images/product5.jpg" alt="Watch">
+    <div class="product-body">
+      <h3 class="product-name">Rolex Watch model-004</h3>
+      <p>
+        <span class="dot green"></span>
+        <span class="dot black"></span>
+        <span class="dot red"></span>
+      </p>
+      <p class="product-description">
+        The Rolex Model-004 exudes timeless elegance and precision, featuring a stainless steel case, automatic movement, and scratch-resistant sapphire crystal. With water resistance and a classic design, it’s perfect for any occasion...<a href="/product.html" class="learn-more">Learn More</a>
+      </p>
+      <h4 class="product-prize">Prize:$750.99</h4>
+      <p class="product-rating">Rating: 4/5</p>
+      <button class="btn product-button">Add To Cart</button>
+    </div>
+  </article>
+
+  <article class="product card">
+    <div class="badge">
+      <span>7 In Stock</span>
+      <hr class="hr-design">
+      <span>5 sold</span>
+    </div>
+    <img class="product-image" src="images/product6.jpg" alt="Sound Box">
+    <div class="product-body">
+      <h3 class="product-name">Sound Box</h3>
+      <p>
+        <span class="dot green"></span>
+        <span class="dot black"></span>
+        <span class="dot red"></span>
+      </p>
+      <p class="product-description">
+        
+      The Sound Box delivers powerful, clear audio with deep bass and balanced tones. Portable and compact, it features Bluetooth connectivity, long battery life, and is perfect for indoor or outdoor music enjoyment...<a href="/product.html" class="learn-more">Learn More</a>
+      </p>
+      <h4 class="product-prize">Prize:$200.99</h4>
+      <p class="product-rating">Rating: 4.5/5</p>
+      <button class="btn product-button">Add To Cart</button>
+    </div>
+  </article>
+
+
+
+</section>
+<!-- products section ends hare -->
+  <div class="pagination">
+    <button class="btn pagination-btn">
+      <i class="fa-solid fa-less-than"></i>
+
+    </button>
+    <button class="btn pagination-btn">2</button>
+    <button class="btn pagination-btn">3</button>
+
+    <button class="btn pagination-btn">4</button>
+
+    <button class="btn pagination-btn">5</button>
+
+    <button class="btn pagination-btn">6</button>
+    <button class="btn pagination-btn">7</button>
+    <button class="btn pagination-btn">8</button>
+    <button class="btn pagination-btn">9</button>
+    <button class="btn pagination-btn">10</button>
+    <button class="btn pagination-btn">11</button>
+    <button class="btn pagination-btn">..</button>
+    <button class="btn pagination-btn">
+      <i class="fa-solid fa-greater-than"></i>
+
+    </button>
+
+  </div>
+
+  </div>
+</main>
+<!-- main ends hare -->
+
+
+<!-- footer section start hare -->
+<footer class="footer flex-space-around">
+<div class="flex-space-around">
+  <label for="subscribe">Subscribe to Newsletter</label>
+  <input type="text" id="subscribe" name="subscribe" placeholder="Enter your email address" class="footer-input">
+  <button class="btn btn-subscribe">Subscribe</button>
+</div>
+
+<div>
+  <p> &copy; Copyright 16.11.2024 E-comarce Project. All Right Rserved.</p>
+</div>
+</footer>
+<!-- footer section Ends hare -->
+
+<script src="./scripts/index.js"></script>
+</body>
+</html>
